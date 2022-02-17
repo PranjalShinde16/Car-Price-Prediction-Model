@@ -1,0 +1,152 @@
+body{
+  font-family: Montserrat;
+  background-color: #a2fcf6;
+  margin: 0;
+}
+.mainbody{
+  margin: 2rem 5rem;
+}
+/*Navigation bar*/
+.navigation{
+  background-color: #a2fcf6;
+}
+.logo{
+  width: 13rem;
+  height: auto;
+  margin: 0;
+}
+.navitems{
+  float: right;
+  text-align: right;
+}
+.ms-auto{
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.nav-item{
+  padding-left: 1rem;
+  padding-right: 3rem;
+}
+.nav-btn{
+  color: white;
+  background-color: #2a3290;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.4rem 2rem;
+  margin: 0;
+}
+.nav-btn:hover{
+  background-color: #1b2066;
+}
+.btns{
+  padding-top: 1.2rem;
+}
+
+/* Sub Body */
+.sub-body{
+  background-color: white;
+  margin: 0 15rem;
+}
+.heading{
+  text-align: center;
+  padding-top: 5rem;
+  font-weight: 900;
+  font-size: 4rem;
+  color: #2a3290;
+}
+.body-head{
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #2a3290;
+  margin-top: 5rem;
+  padding-left: 5rem;
+}
+.body-text{
+  padding-left: 5rem;
+  margin-top: 1.5rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  padding-right: 5rem;
+  margin-bottom: 0;
+}
+.body-btn{
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  background-color: #2a3290;
+  text-align: center;
+  padding: 0.6rem 2.5rem;
+  margin: 2rem auto;
+}
+.body-btn:hover{
+  background-color: #1b2066;
+}
+.body-head2{
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #2a3290;
+  margin-top: 0;
+  padding-left: 5rem;
+}
+.body-text2{
+  padding-bottom: 15rem;
+  line-height: 1.8rem;
+}
+.footer{
+  background-color: #071e48;
+}
+.contactme{
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 3rem;
+}
+.contacttext{
+  color: white;
+  margin: 2rem 20rem;
+  text-align: center;
+}
+.contacticon{
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.ico{
+  padding: 2rem 0.6rem;
+}
+.endthisall{
+  color: white;
+  font-size: 0.7rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+  margin-bottom: 0;
+}
+
+/* Media Queries */
+@media (max-width: 1300px) {
+  .sub-body{
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+  .contacttext{
+    margin: 2rem 10rem;
+  }
+}
+
+.form-group{
+  margin-right: 0;
+}
+.forms{
+  padding: 3rem 5rem 5rem;
+}
+.predict-btn{
+  border-radius: 2rem;
+  background-color: #2a3290;
+  margin-top: 4rem;
+  padding: 0.5rem 4rem;
+}
+.predict-btn:hover{
+  background-color: #071e48;
+}
